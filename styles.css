@@ -1,0 +1,215 @@
+
+@font-face {
+
+font-family: 'Inter';
+src: url('fonts/Inter.ttf') format('truetype');
+font-style: normal;
+font-weight: normal;
+
+}
+
+body {
+    
+background: #EFF1FA;
+
+}
+
+#titulo {
+
+text-align: center;
+
+}
+
+#icono {
+
+margin-left: 84px;
+margin-top: 40px;
+
+}
+
+#titulo {
+
+font-family: 'Inter';
+font-style: normal;
+color: #0A3871;
+position: absolute;
+margin-top: 20px;
+left: 240px;
+
+    
+}
+
+#traducir {
+
+text-transform: lowercase;
+border: none;
+position: absolute;  
+width: 656px;
+height: 50px;
+left: 240px;
+top: 168px;
+background: #EFF1FA;
+outline: none;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+
+
+/* Dark blue/dark-blue-300 */
+
+color: #0A3871;
+
+
+
+}
+
+#resultado {
+
+text-transform: lowercase;
+position: absolute;
+width: 360px;
+height: 750px;
+left: 1330px;
+top: 20px;
+
+/* Font */
+font-family: 'Inter';
+src: url('fonts/Inter.ttf') format('truetype');
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+color: #495057;
+outline: none;
+
+/* White */
+
+background: #FFFFFF;
+border: none;
+resize: none;
+
+/* shadow */
+
+box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+border-radius: 32px;
+
+/* Padding*/
+
+padding-top: 80px;
+padding-left: 40px;
+padding-right: 40px;
+
+}
+
+#muñeco {
+
+position: absolute;
+width: 400px;
+height: 800px;
+left: 1350px;
+top: 20px;
+
+/* shadow */
+
+border-radius: 32px;
+
+}
+
+button {
+
+font-family: 'Inter';
+src: url('fonts/Inter.ttf') format('truetype');
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+    
+}
+
+#reglas {
+
+position: absolute;
+width: 328px;
+height: 67px;
+left: 240px;
+top: 575px;
+
+font-family: 'Inter';
+font-style: normal;
+color: #495057;
+
+}
+
+#boton1 {
+
+position: absolute;
+width: 328px;
+height: 67px;
+left: 240px;
+top: 600px;
+
+/* Dark blue/dark-blue-300 */
+
+background: #0A3871;
+color: #D8DFE8;;
+border-radius: 24px;
+
+}
+
+#boton2 {
+   
+position: absolute;
+width: 328px;
+height: 67px;
+left: 630px;
+top: 600px;
+
+/* Light gray */
+
+background: #D8DFE8;
+/* Dark blue/dark-blue-300 */
+
+border: 1px solid #0A3871;
+color: #495057;
+box-sizing: border-box;
+border-radius: 24px;
+
+}
+
+#boton-copiar {
+
+    position: absolute;
+    width: 328px;
+    height: 67px;
+    left: 1385px;
+    top: 600px;
+    
+    /* Light gray */
+    
+    background: #D8DFE8;
+    /* Dark blue/dark-blue-300 */
+    
+    border: 1px solid #0A3871;
+    color: #495057;
+    box-sizing: border-box;
+    border-radius: 24px;
+    
+
+}
+
+#contacto {
+
+position: absolute;
+top: 700px;
+left: 240px;
+
+}
+
+p {
+    
+font-family: 'Inter';
+font-style: normal;
+color: #0A3871;
+
+}
