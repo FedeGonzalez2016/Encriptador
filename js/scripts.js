@@ -102,6 +102,15 @@ function desencriptarTexto() {
     traducir.value = "";
 }
 
+function copiarAlPortapapeles() {
+
+    let texto = document.getElementById("resultado");
+    resultado.select();
+    resultado.setSelectionRange(0,99999);
+    document.execCommand('copy');
+
+}
+
 
 document.getElementById("boton1");
 boton1.onclick = encriptarTexto;
